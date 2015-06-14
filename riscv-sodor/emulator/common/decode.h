@@ -4,9 +4,9 @@
 #define __STDC_LIMIT_MACROS
 #include <stdint.h>
 #include "pcr.h"
-
-typedef int int128_t __attribute__((mode(TI)));
-typedef unsigned int uint128_t __attribute__((mode(TI)));
+//lx commount
+//typedef int int128_t __attribute__((mode(TI)));
+//typedef unsigned int uint128_t __attribute__((mode(TI)));
 
 typedef int64_t sreg_t;
 typedef uint64_t reg_t;
